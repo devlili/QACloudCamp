@@ -25,11 +25,13 @@ cd QACloudCamp
 Cоздать и активировать виртуальное окружение:
 
 ```
-python3 -m venv env
+python3 -m venv env  # Команда для Linux и macOS
+python -m venv venv  # Команда для Windows
 ```
 
 ```
-source env/bin/activate
+source env/bin/activate  # Команда для Linux и macOS
+source venv/Scripts/activate  # Команда для Windows
 ```
 
 Установить зависимости из файла requirements.txt:
